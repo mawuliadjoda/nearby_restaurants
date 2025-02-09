@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="connect-pharma-whatsapp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.serverless/connect-pharma-whatsapp.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
