@@ -12,4 +12,4 @@ https://dev.to/francescoxx/build-a-crud-rest-api-in-javascript-using-nodejs-expr
 
 ![img_3.png](img_3.png)
 
-![img_4.png](img_4.png)
+![img_4.png](img_4.png)[recu_vente_terrain.pdf](https://github.com/user-attachments/files/18730002/recu_vente_terrain.pdf)
