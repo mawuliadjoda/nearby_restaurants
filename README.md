@@ -2,6 +2,9 @@
 https://sequelize.org/docs/v7/databases/postgres/
 https://dev.to/francescoxx/build-a-crud-rest-api-in-javascript-using-nodejs-express-postgres-docker-jkb
 
+
+npm run start
+
 # See docker folder for more details
 
 ![img.png](img.png)

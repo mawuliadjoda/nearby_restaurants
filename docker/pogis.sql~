@@ -40,13 +40,3 @@ $$;
 grant usage on schema gis to root
 
 SELECT nearby_restaurants(40.807313, -73.946713);
-
-
-
-CREATE TABLE connect228_schema.products (
-                                            id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-                                            name VARCHAR(255) NOT NULL,
-                                            qty INTEGER NOT NULL,
-                                            created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
-                                            updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
-);
