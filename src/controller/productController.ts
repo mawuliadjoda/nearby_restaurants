@@ -1,4 +1,5 @@
 import Product from "../models/product";
+import isUUID from "is-uuid";
 
 export const createProduct = async (req, res, next) => {
 
@@ -75,6 +76,9 @@ export const deleteProduct = async (req, res, next) => {
 
 export const getProductByID = async (req, res, next) => {
     const id = req.params.id;
+    if(!isUUID.v4(id)) {
+        return res.status(400).json({ message: 'Invalid product id!' });
+    }
     Product.findByPk(id)
         .then(product => {
             if (!product) {
